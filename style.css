@@ -17,6 +17,7 @@ header{
     padding-block: 0.5em;
     background-color: #1a2456;
     position: fixed;
+    z-index: 9999;
     top: 1rem;
     width: 100%;
 }
@@ -66,8 +67,10 @@ header{
   .poduct-img-section {
     width: 80%;
     margin-inline: auto;
+    margin-bottom: 0.7rem;
     margin-top: 0.7rem;
     position: relative;
+
   }
 
   .poduct-img-section img {
@@ -108,5 +111,71 @@ header{
    
  
   }
+
+
+  /*footer*/
+  footer {
+
+    background-color:#000000 ;
+    padding-block-end: 10rem;
+    padding-inline-start: 3rem;
+  
+  }
+
+  footer ul{
+    font-size: 1.2rem;
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color:#fff;
+  }
+
+  .ft-main-item h2, strong {
+    color:#fff ;
+  }
+
+
+
+  .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+gap: 6rem;
+    
+  }
+
+  .email-container{
+    margin-top: 0.9rem;
+  }
+
+  .ft-title {
+    color: #fff;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+  }
+
+  .ft-main-item h2{
+    font-size: 1.8rem;
+  }
+
+
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .line-height{
+    line-height: 1.5;
+  }
+
+ 
+
+
+  
+ 
 
 
